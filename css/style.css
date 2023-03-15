@@ -30,7 +30,7 @@ header h1 {
   margin-bottom: 1.7rem;
 }
 header h1, header h2 {
-  text-shadow: 0 0 3px #fff, 1px 1px 7px #f3f860, 1px 1px 10px #f0f71e;
+  text-shadow: 0 0 5px #000, 0 0 8px #fff, 1px 1px 10px #f3f860, 1px 1px 10px #f0f71e;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav ul li a {
 }
 nav ul li a.active {
   background: #000000;
-  text-shadow: 0 0 3px #fff, 1px 1px 7px #f3f860, 1px 1px 10px #f0f71e;
+  text-shadow: 0 0 5px #000, 0 0 8px #fff, 1px 1px 10px #f3f860, 1px 1px 10px #f0f71e;
 }
 nav ul li a:hover {
   background: #3c3c3c;
@@ -128,7 +128,7 @@ footer {
 }
 footer a {
   font-family: "Great Vibes", cursive;
-  text-shadow: 0 0 3px #fff, 1px 1px 7px #f3f860, 1px 1px 10px #f0f71e;
+  text-shadow: 0 0 5px #000, 0 0 8px #fff, 1px 1px 10px #f3f860, 1px 1px 10px #f0f71e;
 }
 
 /*# sourceMappingURL=style.css.map */
