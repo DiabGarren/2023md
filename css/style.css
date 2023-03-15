@@ -1,0 +1,134 @@
+body {
+  text-align: center;
+  background: #171717;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+  color: #f0f71e;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2rem;
+}
+
+header {
+  padding: 0.8rem;
+  background: #000000;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5rem;
+}
+header h1 {
+  margin-bottom: 1.7rem;
+}
+header h1, header h2 {
+  text-shadow: 0 0 3px #fff, 1px 1px 7px #f3f860, 1px 1px 10px #f0f71e;
+}
+
+nav ul {
+  background: #0e0e0e;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  border-top: 2px solid #f0f71e;
+}
+nav ul li a {
+  padding: 0.8rem;
+}
+nav ul li a.active {
+  background: #000000;
+  text-shadow: 0 0 3px #fff, 1px 1px 7px #f3f860, 1px 1px 10px #f0f71e;
+}
+nav ul li a:hover {
+  background: #3c3c3c;
+}
+nav ul li:last-child {
+  border-bottom: 2px solid #f0f71e;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.page {
+  padding: 2rem 0.6rem;
+}
+.page-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 0.8rem;
+  justify-content: center;
+}
+.page-wrapper__image-wrapper a.view {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  background: #000000;
+  border-radius: 15px;
+}
+.page-wrapper__image-wrapper a.view img {
+  border-radius: 15px 15px 10px 10px;
+}
+.page-wrapper__image-wrapper a.view:hover {
+  background: #3c3c3c;
+  box-shadow: 0 0 5px 5px #fff, 0 0 10px 10px #f3f860, 0 0 15px 15px #f0f71e;
+}
+.page-wrapper__image-wrapper a.view p {
+  margin-top: 0.5rem;
+}
+.page__image-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.page__image-wrapper h3 {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.5rem;
+  margin: 0.4rem 0;
+}
+.page__image-wrapper img,
+.page__image-wrapper a {
+  border-radius: 15px;
+}
+.page__image-wrapper a {
+  background: #000000;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.page__image-wrapper a:hover {
+  background: #3c3c3c;
+}
+.page__contact-wrapper h1,
+.page__contact-wrapper h2 {
+  font-family: "Great Vibes", cursive;
+}
+.page__contact-wrapper h1 {
+  font-size: 2.3rem;
+}
+.page__contact-wrapper h2 {
+  font-size: 1.9rem;
+}
+.page__contact-wrapper h2 a {
+  display: inline;
+  text-decoration: underline;
+}
+
+footer {
+  background: #000000;
+  padding: 1.2rem 0;
+}
+footer a {
+  font-family: "Great Vibes", cursive;
+  text-shadow: 0 0 3px #fff, 1px 1px 7px #f3f860, 1px 1px 10px #f0f71e;
+}
+
+/*# sourceMappingURL=style.css.map */
